@@ -1,0 +1,37 @@
+{
+	"ast": null,
+	"code": "var _this = this,\n    _jsxFileName = \"/Users/fady/Desktop/lama/next-landing/src/sections/Service/index.js\";\n\nvar __jsx = React.createElement;\nimport React from \"react\";\nimport { Container, Row, Col } from \"../../reusecore/Layout\";\nimport Box from \"../../reusecore/Box\";\nimport Heading from \"../../reusecore/Heading\";\nimport Text from \"../../reusecore/Text\";\nimport Image from \"../../reusecore/Image\";\nimport data from \"../../assets/data/service\";\nimport { AnimationOnScroll } from 'react-animation-on-scroll';\nimport ServiceSectionWrapper from \"./service.style\";\n\nvar Service = function Service() {\n  return __jsx(ServiceSectionWrapper, {\n    id: \"service\",\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 15,\n      columnNumber: 5\n    }\n  }, __jsx(Container, {\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 16,\n      columnNumber: 7\n    }\n  }, __jsx(Row, {\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 17,\n      columnNumber: 9\n    }\n  }, __jsx(Col, {\n    className: \"md-12\",\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 18,\n      columnNumber: 11\n    }\n  }, __jsx(Box, {\n    className: \"service-item-wrapper\",\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 19,\n      columnNumber: 13\n    }\n  }, __jsx(Row, {\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 20,\n      columnNumber: 15\n    }\n  }, data.services.map(function (service, index) {\n    return __jsx(AnimationOnScroll, {\n      animateIn: \"animate__tada\",\n      __self: _this,\n      __source: {\n        fileName: _jsxFileName,\n        lineNumber: 22,\n        columnNumber: 19\n      }\n    }, __jsx(Col, {\n      className: \"lg-3 sm-6 xs-12\",\n      key: index,\n      __self: _this,\n      __source: {\n        fileName: _jsxFileName,\n        lineNumber: 23,\n        columnNumber: 19\n      }\n    }, __jsx(Box, {\n      className: \"service-item text-center\",\n      __self: _this,\n      __source: {\n        fileName: _jsxFileName,\n        lineNumber: 24,\n        columnNumber: 21\n      }\n    }, __jsx(Image, {\n      src: service.icon,\n      alt: \"Lama service icon\",\n      __self: _this,\n      __source: {\n        fileName: _jsxFileName,\n        lineNumber: 25,\n        columnNumber: 23\n      }\n    }), __jsx(Heading, {\n      as: \"h3\",\n      __self: _this,\n      __source: {\n        fileName: _jsxFileName,\n        lineNumber: 26,\n        columnNumber: 23\n      }\n    }, service.title), __jsx(Text, {\n      __self: _this,\n      __source: {\n        fileName: _jsxFileName,\n        lineNumber: 27,\n        columnNumber: 23\n      }\n    }, service.body))));\n  })))))));\n};\n\nexport default Service;",
+	"map": {
+		"version": 3,
+		"names": [
+			"React",
+			"Container",
+			"Row",
+			"Col",
+			"Box",
+			"Heading",
+			"Text",
+			"Image",
+			"data",
+			"AnimationOnScroll",
+			"ServiceSectionWrapper",
+			"Service",
+			"services",
+			"map",
+			"service",
+			"index",
+			"icon",
+			"title",
+			"body"
+		],
+		"sources": [
+			"/Users/fady/Desktop/lama/next-landing/src/sections/Service/index.js"
+		],
+		"sourcesContent": [
+			"import React from \"react\";\r\n\r\nimport { Container, Row, Col } from \"reusecore/Layout\";\r\nimport Box from \"reusecore/Box\";\r\nimport Heading from \"reusecore/Heading\";\r\nimport Text from \"reusecore/Text\";\r\nimport Image from \"reusecore/Image\";\r\n\r\nimport data from \"assets/data/service\";\r\nimport { AnimationOnScroll } from 'react-animation-on-scroll';\r\nimport ServiceSectionWrapper from \"./service.style\";\r\n\r\nconst Service = () => {\r\n  return (\r\n    <ServiceSectionWrapper id=\"service\">\r\n      <Container>\r\n        <Row>\r\n          <Col className=\"md-12\">\r\n            <Box className=\"service-item-wrapper\">\r\n              <Row>\r\n                {data.services.map((service, index) => (\r\n                  <AnimationOnScroll animateIn=\"animate__tada\">\r\n                  <Col className=\"lg-3 sm-6 xs-12\" key={index}>\r\n                    <Box className=\"service-item text-center\">\r\n                      <Image src={service.icon} alt=\"Lama service icon\" />\r\n                      <Heading as=\"h3\">{service.title}</Heading>\r\n                      <Text>{service.body}</Text>\r\n                    </Box>\r\n                  </Col>\r\n                  </AnimationOnScroll>\r\n                ))}\r\n              </Row>\r\n            </Box>\r\n          </Col>\r\n        </Row>\r\n      </Container>\r\n    </ServiceSectionWrapper>\r\n  );\r\n};\r\n\r\nexport default Service;\r\n"
+		],
+		"mappings": ";;;;AAAA,OAAOA,KAAP,MAAkB,OAAlB;AAEA,SAASC,SAAT,EAAoBC,GAApB,EAAyBC,GAAzB;AACA,OAAOC,GAAP;AACA,OAAOC,OAAP;AACA,OAAOC,IAAP;AACA,OAAOC,KAAP;AAEA,OAAOC,IAAP;AACA,SAASC,iBAAT,QAAkC,2BAAlC;AACA,OAAOC,qBAAP;;AAEA,IAAMC,OAAO,GAAG,SAAVA,OAAU,GAAM;EACpB,OACE,MAAC,qBAAD;IAAuB,EAAE,EAAC,SAA1B;IAAA;IAAA;MAAA;MAAA;MAAA;IAAA;EAAA,GACE,MAAC,SAAD;IAAA;IAAA;MAAA;MAAA;MAAA;IAAA;EAAA,GACE,MAAC,GAAD;IAAA;IAAA;MAAA;MAAA;MAAA;IAAA;EAAA,GACE,MAAC,GAAD;IAAK,SAAS,EAAC,OAAf;IAAA;IAAA;MAAA;MAAA;MAAA;IAAA;EAAA,GACE,MAAC,GAAD;IAAK,SAAS,EAAC,sBAAf;IAAA;IAAA;MAAA;MAAA;MAAA;IAAA;EAAA,GACE,MAAC,GAAD;IAAA;IAAA;MAAA;MAAA;MAAA;IAAA;EAAA,GACGH,IAAI,CAACI,QAAL,CAAcC,GAAd,CAAkB,UAACC,OAAD,EAAUC,KAAV;IAAA,OACjB,MAAC,iBAAD;MAAmB,SAAS,EAAC,eAA7B;MAAA;MAAA;QAAA;QAAA;QAAA;MAAA;IAAA,GACA,MAAC,GAAD;MAAK,SAAS,EAAC,iBAAf;MAAiC,GAAG,EAAEA,KAAtC;MAAA;MAAA;QAAA;QAAA;QAAA;MAAA;IAAA,GACE,MAAC,GAAD;MAAK,SAAS,EAAC,0BAAf;MAAA;MAAA;QAAA;QAAA;QAAA;MAAA;IAAA,GACE,MAAC,KAAD;MAAO,GAAG,EAAED,OAAO,CAACE,IAApB;MAA0B,GAAG,EAAC,sBAA9B;MAAA;MAAA;QAAA;QAAA;QAAA;MAAA;IAAA,EADF,EAEE,MAAC,OAAD;MAAS,EAAE,EAAC,IAAZ;MAAA;MAAA;QAAA;QAAA;QAAA;MAAA;IAAA,GAAkBF,OAAO,CAACG,KAA1B,CAFF,EAGE,MAAC,IAAD;MAAA;MAAA;QAAA;QAAA;QAAA;MAAA;IAAA,GAAOH,OAAO,CAACI,IAAf,CAHF,CADF,CADA,CADiB;EAAA,CAAlB,CADH,CADF,CADF,CADF,CADF,CADF,CADF;AAyBD,CA1BD;;AA4BA,eAAeP,OAAf"
+	},
+	"metadata": {},
+	"sourceType": "module"
+}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"\"use strict\";\n\nrequire(\"@next/polyfill-nomodule\");","map":{"version":3,"names":["require"],"sources":["/Users/fady/Desktop/lama/next-landing copy/node_modules/next/dist/client/polyfills.js"],"sourcesContent":["\"use strict\";require(\"@next/polyfill-nomodule\");"],"mappings":"AAAA;;AAAaA,OAAO,CAAC,yBAAD,CAAP"},"metadata":{},"sourceType":"script"}
