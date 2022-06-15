@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { FaAward, FaStar, FaHeart, FaDownload } from \"react-icons/fa\";\nexport default {\n  wallet: [{\n    count: 200000,\n    suffixText: \" BUSD\",\n    body: \"Private Sale Round\"\n  }, {\n    count: 200000,\n    suffixText: \" BUSD\",\n    body: \"Public Sale Round\"\n  }]\n};","map":null,"metadata":{},"sourceType":"module"}

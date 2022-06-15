@@ -25,5 +25,9 @@ module.exports = withPlugins(
                 },
             }
         ],
+        module.exports = {
+            distDir: 'build',
+          },
+          
     ]//e
 )
